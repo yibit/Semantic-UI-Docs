@@ -4,6 +4,8 @@ This folder contains the templates used to generate the static website for [sema
 
 ## How to Use
 
+```bash
+
 mkdir -p ~/semantic-ui
 cd ~/semantic-ui
 
@@ -19,7 +21,7 @@ gulp build-docs # Generating SUI for Docs
 
 cd docs
 docpad run  # Running the Server
-
+```
 
 Watch for changes from your UI folder, and serve to the docs instance:
 
